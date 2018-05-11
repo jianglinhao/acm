@@ -2,7 +2,7 @@
 using namespace std;
 const int maxn = 10000;
 int nxt[maxn];
-void get_nxt(char *str) //可用于找前缀和后缀相同的长度
+void get_nxt(char *str) //find the length of the same prefix and suffix
 {
     nxt[0]=-1;
     int i=0,j=-1,len=strlen(str);
